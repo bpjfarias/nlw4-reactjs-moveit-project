@@ -17,7 +17,11 @@ TBD
 
 <details><summary><b>Second class</b></summary>
 
-TBD
+- More about SPA, SSR, SSG
+- What is Nextjs and when using it on React application
+- CSS modules
+- Creating components
+- Styling those components with css
 
 </details>
 
@@ -45,6 +49,8 @@ TBD
 
 - React
 - Typescript
+- Next
+- CSS modules
 
 ## Let's code! 🚀
 
