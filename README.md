@@ -27,7 +27,10 @@ TBD
 
 <details><summary><b>Third class</b></summary>
 
-TBD
+- Creating some smalls components
+- Understanding what is React Context
+- Sharing data between components using React Context
+- Styling those components with css
 
 </details>
 

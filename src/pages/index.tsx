@@ -5,31 +5,32 @@ import { Profile } from '../components/Profile'
 import styles from '../styles/pages/Home.module.css'
 
 import Head from 'next/head'
+import { ChallengeBox } from '../components/ChallengeBox'
 
 export default function Home() {
   return (
 
     <div className={styles.container}>
-      <Head>
-      <title>Home | move.it</title>
-      </Head>
-      
-      <ExperienceBar />
+        <Head>
+          <title>Home | move.it</title>
+        </Head>
+        
+        <ExperienceBar />
 
-      <section>
+        <section>
 
-      <div>
-    <Profile />
-    <CompletedChallenges />
-    <Countdown />
-      </div>
+        <div>
+          <Profile />
+          <CompletedChallenges />
+          <Countdown />
+        </div>
 
-      <div>
+        <div>
+      <ChallengeBox />
 
+        </div>
 
-      </div>
-
-      </section>
+        </section>
 
     </div>
 
