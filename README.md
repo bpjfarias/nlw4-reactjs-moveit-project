@@ -6,7 +6,10 @@ The NLW is an on-line event with a lot of coding, challenges, networking and onl
 
 ## About my project
 
-TBD
+move it is a project that mix Pomodoro technique plus gamification. The proposal is to encourage trought pointing/xp that the user make breaks while work or study time to time. It's help to focus in that activity and body well being practicing the exercices.
+
+move it é um projeto que mistura a técnica Pomodoro com gamification. A proposta é incentivar através de pontuação que o usuário realize intervalos de trabalho, estudos e afins de tempos em tempos. Isso visa o foco na atividade bem como o bem estar do corpo ao praticar os exercicios.
+
 <details><summary><b>First class</b></summary>
 
 - SPA - Single Page Application - concepts
@@ -27,6 +30,7 @@ TBD
 
 <details><summary><b>Third class</b></summary>
 
+- Creating interfaces to identify parameters types into context
 - Creating some smalls components
 - Understanding what is React Context
 - Sharing data between components using React Context
@@ -36,7 +40,9 @@ TBD
 
 <details><summary><b>Fourth class</b></summary>
 
-TBD
+- Evolving theapplication
+- Learning more about React Context API
+- Using native API to notifications and sounds on browser
 
 </details>
 
@@ -50,7 +56,7 @@ TBD
 
 ## 💻 Techonologies
 
-- React
+- Reactjs
 - Typescript
 - Next
 - CSS modules
