@@ -8,8 +8,6 @@ The NLW is an on-line event with a lot of coding, challenges, networking and onl
 
 move it is a project that mix Pomodoro technique plus gamification. The proposal is to encourage trought pointing/xp that the user make breaks while work or study time to time. It's help to focus in that activity and body well being practicing the exercices.
 
-move it é um projeto que mistura a técnica Pomodoro com gamification. A proposta é incentivar através de pontuação que o usuário realize intervalos de trabalho, estudos e afins de tempos em tempos. Isso visa o foco na atividade bem como o bem estar do corpo ao praticar os exercicios.
-
 <details><summary><b>First class</b></summary>
 
 - SPA - Single Page Application - concepts
@@ -40,7 +38,7 @@ move it é um projeto que mistura a técnica Pomodoro com gamification. A propos
 
 <details><summary><b>Fourth class</b></summary>
 
-- Evolving theapplication
+- Evolving the application
 - Learning more about React Context API
 - Using native API to notifications and sounds on browser
 
@@ -48,7 +46,10 @@ move it é um projeto que mistura a técnica Pomodoro com gamification. A propos
 
 <details><summary><b>Fifth class</b></summary>
 
-TBD
+- Differences between Local Storage, Session Storage and cookies
+- Understanding what is and how does GetServerSideProps works
+- Setting variables into cookies
+- Getting that cookies and passing as parameters to the application components by GetServerSideProps
 
 </details>
 
@@ -58,8 +59,9 @@ TBD
 
 - Reactjs
 - Typescript
-- Next
+- Next.js
 - CSS modules
+- Jscookie
 
 ## Let's code! 🚀
 
