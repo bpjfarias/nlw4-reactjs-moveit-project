@@ -6,7 +6,7 @@ The NLW is an on-line event with a lot of coding, challenges, networking and onl
 
 ## About my project
 
-move it is a project that mix Pomodoro technique plus gamification. The proposal is to encourage trought pointing/xp that the user make breaks while work or study time to time. It's help to focus in that activity and body well being practicing the exercices.
+`move.it` is a project that mix Pomodoro technique plus gamification. The proposal is to encourage trought pointing/xp that the user make breaks while work or study time to time. That help to focus in that activity and body well being practicing the exercices.
 
 <details><summary><b>First class</b></summary>
 
@@ -19,10 +19,10 @@ move it is a project that mix Pomodoro technique plus gamification. The proposal
 <details><summary><b>Second class</b></summary>
 
 - More about SPA, SSR, SSG
-- What is Nextjs and when using it on React application
+- What is Nextjs and when using it on React applications
 - CSS modules
 - Creating components
-- Styling those components with css
+- Styling those ones components with css
 
 </details>
 
@@ -32,7 +32,7 @@ move it is a project that mix Pomodoro technique plus gamification. The proposal
 - Creating some smalls components
 - Understanding what is React Context
 - Sharing data between components using React Context
-- Styling those components with css
+- Styling those ones components with css
 
 </details>
 
@@ -65,4 +65,4 @@ move it is a project that mix Pomodoro technique plus gamification. The proposal
 
 ## Let's code! 🚀
 
-Made with hungry by **Brayan Farias**. Connect with me on [Linkedin!](https://www.linkedin.com/in/npm-start-brayan-farias/)
+Made while hungry by **Brayan Farias**. Connect with me on [Linkedin!](https://www.linkedin.com/in/npm-start-brayan-farias/)

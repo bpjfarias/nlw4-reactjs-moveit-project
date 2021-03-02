@@ -46,9 +46,15 @@ export function ChallengesProvider({     children, ...rest}: ChallengesProviderP
     }, [])
 
     useEffect(() => {
-        Cookies.set('level', String(level))
-        Cookies.set('currentExperience', String(currentExperience))
-        Cookies.set('challengesCompleted', String(challengesCompleted))
+        Cookies.set('level', String(level), {
+            expires: 365
+        })
+        Cookies.set('currentExperience', String(currentExperience),{
+            expires: 365
+        })
+        Cookies.set('challengesCompleted', String(challengesCompleted),{
+            expires: 365
+        })
     }, [level, currentExperience, challengesCompleted])
 
     function completedChallenge() {
