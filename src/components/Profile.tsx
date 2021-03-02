@@ -6,11 +6,13 @@ export function Profile() {
 
     const {level} = useContext(ChallengesContext)
 
+    const avatar = '/images/avatar.png'
+
     return (
         <div className={styles.profileContainer}>
-            <img src="https://github.com/bpjfarias.png" alt="Brayan Farias" />
+            <img src={avatar} alt="Avatar" />
             <div>
-                <strong>Brayan Farias</strong>
+                <strong>Você</strong>
                 <p>
                 <img src="icons/level.svg" alt="Level"/>
                     Level {level}

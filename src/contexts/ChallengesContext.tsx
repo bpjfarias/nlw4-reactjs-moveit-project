@@ -34,9 +34,9 @@ export const ChallengesContext = createContext({} as ChallengesContextData)
 
 export function ChallengesProvider({     children, ...rest}: ChallengesProviderProps) {
 
-    const [level, setLevel] = useState(rest.level ?? 1);
-    const [currentExperience, setCurrentExperience] = useState(rest.currentExperience ?? 0)
-    const [challengesCompleted, setChallengesCompleted] = useState(rest.challengesCompleted ?? 0)
+    const [level, setLevel] = useState(rest.level);
+    const [currentExperience, setCurrentExperience] = useState(rest.currentExperience)
+    const [challengesCompleted, setChallengesCompleted] = useState(rest.challengesCompleted)
     const [activeChallenge, setActiveChallenge] = useState(null)
     const [isLevelUpModalOpen, setIsLevelUpModalOpen] = useState(false)
     const experienceToNextLevel = Math.pow((level + 1) * 4, 2)
@@ -45,10 +45,10 @@ export function ChallengesProvider({     children, ...rest}: ChallengesProviderP
         Notification.requestPermission()
     }, [])
 
-    useEffect(() =>{
-        Cookies.set('level', level.toString())
-        Cookies.set('currentExperience', currentExperience.toString())
-        Cookies.set('challengesCompleted', challengesCompleted.toString())
+    useEffect(() => {
+        Cookies.set('level', String(level))
+        Cookies.set('currentExperience', String(currentExperience))
+        Cookies.set('challengesCompleted', String(challengesCompleted))
     }, [level, currentExperience, challengesCompleted])
 
     function completedChallenge() {
