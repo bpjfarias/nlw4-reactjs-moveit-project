@@ -4,7 +4,7 @@ export default class MyDocument extends Document {
 
      openGraphTags = {
         currentURL: 'https://moveit-ruddy-mu.vercel.app/',
-        previewImage: 'icons/body.svg',
+        previewImage: 'images/open_granph_body.png',
         siteName: 'move.it',
         pageTitle: "Home",
         description: 'The Pomodoro technique plus gamification',
