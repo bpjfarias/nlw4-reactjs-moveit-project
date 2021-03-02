@@ -7,10 +7,11 @@ export default class MyDocument extends Document {
             <Html>
                 <Head>
                     <meta property="og:title" content="move.it" />
-                    <meta property="og:image" content="logo-full.png" />
+                    <meta property="og:image" content="logo-full.png" style={{aspectRatio: "1.91 / 1"}} />
                     <meta property="og:description" content="The Pomodoro technique plus gamification" />
                     <meta property="og:url" content="https://moveit-ruddy-mu.vercel.app/" />
                     <meta property="og:type" content="website" />
+                    <meta property=""></meta>
 
                     <link rel="shortcut icon" href="favicon.png" type="image/png" />
                     <link rel="preconnect" href="https://fonts.gstatic.com" />
