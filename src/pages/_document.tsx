@@ -1,12 +1,13 @@
 import Document, { Html, Head, NextScript, Main } from 'next/document'
 
 export default class MyDocument extends Document {
+
     render() {
         return (
             <Html>
                 <Head>
                     <meta property="og:title" content="move.it" />
-                    <meta property="og:image" content="https://image.freepik.com/free-vector/people-praticing-exercise-avatar-character_24911-54424.jpg" />
+                    <meta property="og:image" content="logo-full.png" />
                     <meta property="og:description" content="The Pomodoro technique plus gamification" />
                     <meta property="og:url" content="https://moveit-ruddy-mu.vercel.app/" />
                     <meta property="og:type" content="website" />
