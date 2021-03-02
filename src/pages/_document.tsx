@@ -5,11 +5,12 @@ export default class MyDocument extends Document {
         return (
             <Html>
                 <Head>
-                    <meta property="og:type" content="website" />
-                    <meta property="og:url" content="https://moveit-ruddy-mu.vercel.app/" />
-                    <meta property="og:title" content="Home | move.it" />
+                    <meta property="og:title" content="move.it" />
+                    <meta property="og:image" content="https://image.freepik.com/free-vector/people-praticing-exercise-avatar-character_24911-54424.jpg" />
                     <meta property="og:description" content="The Pomodoro technique plus gamification" />
-                    <meta property="og:image" content="/images/open_graph_body.png" />
+                    <meta property="og:url" content="https://moveit-ruddy-mu.vercel.app/" />
+                    <meta property="og:type" content="website" />
+
                     <link rel="shortcut icon" href="favicon.png" type="image/png" />
                     <link rel="preconnect" href="https://fonts.gstatic.com" />
                     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Rajdhani:wght@600&display=swap" rel="stylesheet" />
